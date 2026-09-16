@@ -48,7 +48,7 @@ cmp input.txt restored.txt
 
 주요 코드: [`syscall.c`](02-xv6-scheduling/phase1/syscall.c), [`sysproc.c`](02-xv6-scheduling/phase1/sysproc.c), [`proc.h`](02-xv6-scheduling/phase1/proc.h), [`test_1.c`](02-xv6-scheduling/phase1/test_1.c), [`test_2.c`](02-xv6-scheduling/phase1/test_2.c).
 
-**보고서 결과** (`202128519.pdf`, p. 5):
+**보고서 결과** :
 
 ```text
 test 1: passed
@@ -63,7 +63,7 @@ test 2: passed
 
 주요 코드: [`proc.c`](02-xv6-scheduling/phase2/proc.c), [`sysproc.c`](02-xv6-scheduling/phase2/sysproc.c), [`trap.c`](02-xv6-scheduling/phase2/trap.c), [`test_lottery.c`](02-xv6-scheduling/phase2/test_lottery.c).
 
-**보고서 측정 결과** (`202128519.pdf`, pp. 12-13):
+**보고서 측정 결과** :
 
 | 실행 | 30 tickets: ticks / 점유율 | 20 tickets: ticks / 점유율 | 10 tickets: ticks / 점유율 | 총 ticks |
 | --- | --- | --- | --- | --- |
@@ -84,7 +84,7 @@ test 2: passed
 
 주요 코드: [`proc.c`](02-xv6-scheduling/phase3/proc.c), [`sysproc.c`](02-xv6-scheduling/phase3/sysproc.c), [`param.h`](02-xv6-scheduling/phase3/param.h), [`test_currency.c`](02-xv6-scheduling/phase3/test_currency.c).
 
-**보고서 결과** (`202128519.pdf`, p. 18):
+**보고서 결과** :
 
 ```text
 Build complete.
@@ -103,7 +103,7 @@ test cur3: passed
 
 주요 코드: [`proc.c`](03-kernel-threads/proc.c), [`ulib.c`](03-kernel-threads/ulib.c), [`sysproc.c`](03-kernel-threads/sysproc.c), [`test_thread.c`](03-kernel-threads/test_thread.c).
 
-**보고서 관찰 결과** (`202020937.pdf`, p. 20):
+**보고서 관찰 결과** :
 
 | 조건 | 캡처에서 확인한 동작 |
 | --- | --- |
